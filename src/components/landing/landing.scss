@@ -1,0 +1,14 @@
+@import "../../style/variables";
+@import "../../style/mixins";
+
+.landing_screen {
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  background: $black;
+  background-image: url(../../images/landing-background.png),
+    url(../../images/landing-background-grid.png);
+  @include hero-background;
+}
