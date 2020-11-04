@@ -1,0 +1,9 @@
+@import "../../style/variables";
+@import "../../style/mixins";
+
+.designs_screen {
+  @include hero-background;
+  background-image: url(../../images/designs-background-grid.png);
+  background-position: center bottom;
+  position: relative;
+}

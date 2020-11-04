@@ -1,8 +1,12 @@
 // Google Fonts
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
-* {
+:root {
   top: 0;
   left: 0;
+  margin: 0;
+}
+
+body {
   margin: 0;
 }

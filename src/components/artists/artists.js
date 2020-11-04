@@ -2,15 +2,15 @@ import React from 'react'
 
 import Fade from '../fade/fade'
 import FadeUp from '../fade/fadeUp'
-import './landing.scss'
+import './artists.scss'
 
-const Landing = () => {
+const Artists = () => {
     return (
-        <div className='landing_screen'>
+        <div className='artists_screen'>
             <Fade />
             <FadeUp />
         </div>
     )
 }
 
-export default Landing
+export default Artists

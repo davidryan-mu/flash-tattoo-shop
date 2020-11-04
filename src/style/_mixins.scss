@@ -1,4 +1,10 @@
 @mixin hero-background {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  background: $black;
+  display: block;
   background-position: center top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */

@@ -1,0 +1,9 @@
+@import "../../style/variables";
+@import "../../style/mixins";
+
+.artists_screen {
+  @include hero-background;
+  background-image: url(../../images/artists-background-grid.png);
+  background-position: center top;
+  position: relative;
+}
