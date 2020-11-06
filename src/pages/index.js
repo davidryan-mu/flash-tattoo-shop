@@ -11,9 +11,18 @@ import "../style/styles.scss"
 const IndexPage = () => (
   <Layout>
     <SEO title="Heartbreak Social Club" />
-    <div id='landing'><Landing /></div>
-    <div id='designs'><Designs /></div>
-    <div id='artists'><Artists /></div>
+    <div id="landing">
+      <Landing />
+    </div>
+    <div id="designs">
+      <Designs />
+    </div>
+    <div id="artists">
+      <Artists />
+    </div>
+    <div id="contact">
+      <Designs />
+    </div>
   </Layout>
 )
 

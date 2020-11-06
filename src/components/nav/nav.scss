@@ -3,34 +3,70 @@
 .nav-links {
   z-index: 10;
   position: fixed;
+  margin-top: 0.1em;
   width: 100%;
-  margin-top: 0;
-  display: flex;
   background: linear-gradient(180deg, $black 0%, rgba(0, 0, 0, 0) 100%);
-
-  .nav-logo {
-    top: 0;
-    left: 1em;
-    transition: all 0.3s ease-in-out;
-  }
-
-  .nav-logo:hover {
-    top: 0.3em;
-  }
+  font-family: $bebas;
+  font-size: 2.5em;
 
   ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    width: 50vw;
-    margin: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1em;
     text-align: center;
+    text-decoration: none;
+    color: $dark-grey;
 
     li {
-      font-family: $bebas;
-      font-size: 2.5em;
-      color: $dark-grey;
-      text-decoration: none;
+      .img-link {
+        top: 0;
+        left: 0;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .img-link:hover {
+        top: 0.1em;
+      }
+
+      .link {
+        color: $dark-grey;
+        text-decoration: none;
+      }
+
+      .link:active {
+        color: $light-grey;
+        text-decoration: none;
+      }
+
+      .link:hover {
+        color: $light-grey;
+        text-decoration: none;
+      }
+
+      .is-active {
+        color: $light-grey;
+        text-decoration: none;
+      }
+
+      .non-active {
+        color: $dark-grey;
+        text-decoration: none;
+      }
+
+      .non-active:hover {
+        color: $light-grey;
+        text-decoration: none;
+      }
+    }
+
+    #text-link-wrapper {
+      width: 40%;
+      margin: 0 auto;
+      padding-top: 0.1em;
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

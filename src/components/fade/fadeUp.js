@@ -1,12 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import './fadeUp.scss'
+import "./fadeUp.scss"
 
 const FadeUp = () => {
-    return (
-        <div className='fade-up'>
-        </div>    
-    )
+  return <div className="fade-up"></div>
 }
 
 export default FadeUp

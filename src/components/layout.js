@@ -7,26 +7,9 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import Nav from "./nav/nav"
 
-
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
-  if (typeof window !== "undefined") {
-    // eslint-disable-next-line global-require
-    require("smooth-scroll")('a[href*="#"]')
-  }
-
   return (
     <>
       <Nav />
